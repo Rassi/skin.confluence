@@ -999,7 +999,7 @@
 					<item id="2">
 						<label>31953</label>
 						<onclick condition="String.IsEqual(Window.Property(VideosDirectLink),True)">ActivateWindow(Videos)</onclick>
-						<onclick condition="!String.IsEqual(Window.Property(VideosDirectLink),True)">ActivateWindow(Videos,root)</onclick>
+						<onclick condition="!String.IsEqual(Window.Property(VideosDirectLink),True)">ActivateWindow(Videos,Files,root)</onclick>
 						<icon></icon>
 						<thumb></thumb>
 						<visible>!Skin.HasSetting(HomeMenuNoVideosButton)</visible>
